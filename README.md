@@ -1,16 +1,57 @@
-# React + Vite
+# 🚀 IELTS Institute Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, professional, and fully responsive landing page for a fictional IELTS preparation institute, completed as part of an internship task.
 
-Currently, two official plugins are available:
+## ✨ Project Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project focuses on **design quality, responsiveness, and clean React code**.
 
-## React Compiler
+* **Design:** Professional, academic aesthetic using a clean **Red and White** color palette.
+* **Responsiveness:** **Mobile-first** approach ensures a seamless experience across all devices.
+* **Structure:** Implemented all required sections: **Navbar**, **Hero**, **Feature Cards**, **Testimonials Slider**, and **Footer**.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Tech Stack
 
-## Expanding the ESLint configuration
+| Technology | Purpose |
+| :--- | :--- |
+| **React JS** | Component-based architecture for modular, reusable code. |
+| **Tailwind CSS** | Utility-first framework for rapid, highly responsive styling. |
+| **AOS (Animate On Scroll)** | Adds subtle, professional scroll animations to elements. |
+| **Swiper** | Powers the modern, touch-friendly testimonials carousel. |
+| **Vite** | Fast development server and optimized build tooling. |
+| **`react-scroll`** | Enables smooth navigation between page sections. |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💡 Design & Code Decisions
+
+I focused on achieving a premium UI/UX:
+
+* **AOS** animations and the **Swiper** carousel were integrated to add a polished, dynamic feel without being distracting.
+* The **Navbar** uses a modern, translucent `backdrop-blur-md` effect.
+* The application is organized into logical, separate components (`Hero`, `Features`, `Testimonials`, etc.) for **maintainability and clarity**.
+
+***
+
+## 🛠️ Setup and Installation
+
+### Prerequisites
+* Node.js (v14+)
+* npm or yarn
+
+### Steps
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/VinayKumar1510/IELTS.git](https://github.com/VinayKumar1510/IELTS.git)
+    cd IELTS
+    ```
+
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the Project:**
+    ```bash
+    npm run dev
+    ```
+The application runs at `http://localhost:5173`.
